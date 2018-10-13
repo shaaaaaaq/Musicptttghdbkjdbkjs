@@ -8,7 +8,7 @@ client.on("message", async msg => {
 
     var args = msg.content.split(" ")
 
-    var prefix = "!"
+    var prefix = "S"
 
     if (msg.content.toLowerCase().startsWith(prefix + "purge")) {
 
